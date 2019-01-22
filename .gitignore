@@ -1,5 +1,6 @@
 *.class
 *.swp
+recursos
 /HolaMundo/nbproject/private/
 /HolaMundo/build/
 /Ejercicio01/nbproject/private/

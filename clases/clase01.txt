@@ -1,12 +1,69 @@
 CLASE 01: Martes 22 de enero
 ------------------------------------------------------------------
 TEMA 1: Características de Java
+- Características de Java
+-- Alto nivel y uso general
+    Es un lenguaje de programación bastante amigable con el
+    programador, es decir, su sintaxis es relativamente
+    cómoda para interpretar por un programador.
+    Es de uso general porque tiene aplicaciones muy diversas
+    las cuales, a veces, estan atendidas por diferentes
+    lenguajes de programación.
+-- Orientado a objetos
+    Orientado a objetos (POO), es un paradigma de programación
+    Una metodología, una forma de programar.
+    Se basa en Objetos (que simulan objetos del modelo de dominio
+    de la aplicación)
+-- Independiente de la plataforma
+    Porque esta diseñado para que el programador, una vez escrito
+    el programa, se desentienda de la plataforma (sistema 
+    operativo) en el cual se ejecutará.
+-- Compilado
+    Compilado significa que el código que escribe el programador
+    (código fuente), es transformado por un programa denominado
+    compilador en otro código entendible por el sistema (máquina
+    virtual de Java o JVM).
 TEMA 2: Aplicaciones de Java
-TEMA 3: Instalación del JDK
-TEMA 4: Instalación de NetBeans
-TEMA 5: Primer programa en Java
-TEMA 6: Interpretación de errores en Java
+- Aplicaciones de escritorio
+    Son aquellas en donde el conjunto de los elementos de la 
+    aplicación residen en un solo sistema.
+- Aplicaciones de servidor
+    Son aplicaciones que dan servicios a través de una red.
+- Aplicaciones de cliente
+    Son las aplicaciones que consultan servicios a través de
+    una red y hacen de interfaz con el usuario.
+- Aplicaciones móbiles
+    Son las aplicaciones que se ejecutan en un dispositivo móvil
+    (por ejemplo, smartphones), normalmente, usando el sistema
+    operativo Android.
+- Juegos
+    Son aplicaciones que sirven para entretenimiento.
+TEMA 3: Instalación del JDK y NetBeans (todo en uno)
+- Ir al sitio de descarga
+-- https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html
+- Aceptar el acuerdo de licencia
+- Seleccionar el JDK adecuado (de acuerdo al sistema operativo)
+- Instalar
+- Ejecutar
+TEMA 4: Primer programa en Java
+- Crear un projecto (aplicación Java)
+- Crear un paquete (Java package)
+- Crear una clase principal (Java Main Class)
+- Escribir el código, en Java, para mostrar un mensaje
+- Comentarios
+- La función main()
+- System.out.println()
+- Resaltado de sintaxis
+- Ejecución de la aplicación
+- Interpretar la salida
+TEMA 5: Interpretación de errores en Java
+- Falta un punto y coma
+- Falta un paréntesis
+TEMA 6: Completado de código
 EJERCICIOS
-EJERCICIOS RESUELTOS
+01. Mostrar un texto en la salida
+02. Mostrar dos textos (uno debajo del otro)
+03. Mostrar un número entero en la salida
+04. Mostrar el resultado de una expresión aritmética 
 EJERCICIOS DE PRACTICA
-
+- HolaMundo
