@@ -1,0 +1,24 @@
+CLASE 0: Lunes 21 de enero
+---------------------------------------------------------------------
+TEMA 1: Reglas del chat de whatsapp 
+TEMA 2: Objetivo del curso
+TEMA 3: Temario del curso
+01 Introducción a Java
+02 Variables
+03 Estructuras de control
+04 Estructuras de datos (introducción)
+05 Funciones
+06 Introducción a la POO (Clases y constructores)
+07 POO (Herencia)
+08 Clases incorporadas de uso frecuente
+09 Entrada/Salida de archivos
+10 Interfaces gráficas (GUI)
+11 XML (manipulación de archivos XML con Java)
+TEMA 4: Prerrequisitos
+TEMA 5: Materiales de apoyo
+GitHub: https://github.com/claudioaltamiranda/curso_de_java
+TEMA 6: Ejercicios
+TEMA 7: Ejercicios resueltos
+TEMA 8: Ejercicios de práctica
+TEMA 9: Declaración de responsabilidades del curso
+

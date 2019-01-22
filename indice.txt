@@ -1,8 +1,7 @@
 Indice
-======
-En este archivo se listan en orden los ejemplos del curso
-
-001	HolaMundo		Ejemplo para verificar que las herramientas, IDE y JDK 
-				funcionan correctamente.
-				También, primer programa en Java
+---------------------------------------------------------------------
+001 Revisar el chat de la clase 0
+002 Leer el archivo clases/clase00.txt
+003 Revisar el chat de la clase 1
+004 
 
