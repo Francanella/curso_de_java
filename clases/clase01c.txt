@@ -1,0 +1,18 @@
+CLASE 01 (continuación): Jueves 24 de enero
+------------------------------------------------------------------
+- La función main()
+- System.out.println()
+- Resaltado de sintaxis
+- Ejecución de la aplicación
+- Interpretar la salida
+TEMA 5: Interpretación de errores en Java
+- Falta un punto y coma
+- Falta un paréntesis
+TEMA 6: Completado de código
+EJERCICIOS
+01. Mostrar un texto en la salida
+02. Mostrar dos textos (uno debajo del otro)
+03. Mostrar un número entero en la salida
+04. Mostrar el resultado de una expresión aritmética 
+EJERCICIOS DE PRACTICA
+- HolaMundo
