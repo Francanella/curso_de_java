@@ -4,5 +4,7 @@ Indice
 002 Leer el archivo clases/clase00.txt
 003 Video de la clase 1: https://www.youtube.com/watch?v=7teBfWl98iM
 005 Revisar el chat de la clase 1
-006 
+006 Leer el archivo clases/clase01.txt
+007 Leer el archivo clases/clase01b.txt
+008  
 

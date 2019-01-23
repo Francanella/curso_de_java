@@ -5,5 +5,8 @@ LUN 21 ENE
 MAR 22 ENE
 - Clase 01
   Atención que la clase 1 tiene video y ya está disponible en youtube
-  
+MIE 23 ENE
+- Continuación de la clase 01
+  Los temas a ver están contenidos, también, en el mismo video
+
 
