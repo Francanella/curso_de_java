@@ -3,21 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio02;
+package ejercicio03;
 
 /**
  *
  * @author claudioaltamiranda
  */
-public class Ejercicio {
+public class Principal {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Mi nombre es: ");
-        System.out.println("Claudio");
+        System.out.println(10);
     }
     
 }
