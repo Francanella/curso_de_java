@@ -8,5 +8,11 @@ Indice
 007 Leer el archivo clases/clase01b.txt
 008 Leer el archivo clases/clase01c.txt
 009 Mirar el video: https://www.youtube.com/watch?v=_YLnYuDG2ss
- 
-
+010 Proyecto HolaMundo: ejercicios_de_practica/HolaMundo
+011 Ejercicios resueltos: ejercicios_resueltos/Ejercicio01
+012 Ejercicios resueltos: ejercicios_resueltos/Ejercicio02
+013 Ejercicios resueltos: ejercicios_resueltos/Ejercicio03
+014 Ejercicios resueltos: ejercicios_resueltos/Ejercicio04
+015 Clase 02 (variables y variables enteras) video:
+    https://www.youtube.com/watch?v=S11NSU-Py3Q 
+016 
