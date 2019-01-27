@@ -13,6 +13,17 @@ Indice
 012 Ejercicios resueltos: ejercicios_resueltos/Ejercicio02
 013 Ejercicios resueltos: ejercicios_resueltos/Ejercicio03
 014 Ejercicios resueltos: ejercicios_resueltos/Ejercicio04
-015 Clase 02 (variables y variables enteras) video:
+Clase 02
+015 Variables y variables enteras, video:
     https://www.youtube.com/watch?v=S11NSU-Py3Q 
-016 
+016 Ejercicios de práctica: ejercicios_de_practica/Variables
+017 Variables de tipo flotante, video:
+    https://www.youtube.com/watch?v=T6rZVSu64pw
+018 ejercicios_de_practica/NumerosDePuntoFlotante
+019 Cast de tipos, video:
+    https://www.youtube.com/watch?v=j5got0BDDNg
+020 ejercicios_de_practica/CastingDeTipos
+021 Literales y variables de tipo double, video:
+    
+022 ejercicios_de_practica/TipoDouble
+023 
