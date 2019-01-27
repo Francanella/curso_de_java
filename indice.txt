@@ -1,7 +1,9 @@
 Indice
 ---------------------------------------------------------------------
+Clase 00
 001 Revisar el chat de la clase 0
 002 Leer el archivo clases/clase00.txt
+Clase 01
 003 Video de la clase 1: https://www.youtube.com/watch?v=7teBfWl98iM
 005 Revisar el chat de la clase 1
 006 Leer el archivo clases/clase01.txt
@@ -24,6 +26,17 @@ Clase 02
     https://www.youtube.com/watch?v=j5got0BDDNg
 020 ejercicios_de_practica/CastingDeTipos
 021 Literales y variables de tipo double, video:
-    
+    https://www.youtube.com/watch?v=41eyPXu5Gx4
 022 ejercicios_de_practica/TipoDouble
-023 
+023 Uso de librerias e import, video
+    https://www.youtube.com/watch?v=BOaDvm522UQ
+024 ejercicios_de_practica/LibreriaMath
+025 Caracteres en Java, char, video
+    https://www.youtube.com/watch?v=bRoGRH3vZ-4
+026 ejercicios_de_practica/Caracteres
+027 Cadenas de caracteres, la clase String en Java, video
+    https://www.youtube.com/watch?v=uKlaVfOUjSs
+028 ejercicios_de_practica/Cadenas
+029 
+Clase 3
+

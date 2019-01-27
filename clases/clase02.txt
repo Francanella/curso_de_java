@@ -5,10 +5,25 @@ TEMA 2: Variables enteras
 TEMA 3: Variables de punto flotante
 TEMA 4: Casting de tipos
 TEMA 5: Variables de tipo doble
-TEMA 5: La librería Math
+TEMA 5: La librería Math. Uso de import
 TEMA 6: Variables de caracter
 TEMA 7: La clase String
 EJERCICIOS DE PRÁCTICA:
 - Variables
 EJERCICIOS:
+- Dado un monto, calcular cuantos billetes de 1, 5 y 10 son 
+  necesarios.
+- Intercambiar los valores de dos variables
+- Intercambiar los valores de tres variables
+- Confeccionar un programa que utilice el método pow de Math
+- Confeccionar un programa que utilice el método max y min de Math
+- Crear un programa que escriba una palabra juntando caracteres a
+  partir de sus códigos numéricos (por ej: A 65, a 97)
+- Crear un programa que haga uso de caracteres no imprimibles 
+  (por ejemplo tab)
+- Crear un programa que muestre la versión en mayúsculas de una
+  cadena de caracteres
+- Crear un programa que haga uso de un método de la clase String
+  tal como lo muestra la ayuda de la API (en lo posible, algún 
+  método no explicado)
 EJERCICIOS RESUELTOS:
