@@ -1,6 +1,6 @@
 CLASE 02: Lunes 28 de enero
 ------------------------------------------------------------------
-TEMA 1: Variables
+TEMA 1: Variables (datos, tipos de datos, variables)
 TEMA 2: Variables enteras
 TEMA 3: Variables de punto flotante
 TEMA 4: Casting de tipos
@@ -10,6 +10,12 @@ TEMA 6: Variables de caracter
 TEMA 7: La clase String
 EJERCICIOS DE PRÁCTICA:
 - Variables
+- NumerosDePuntoFlotante
+- CastingDeTipos
+- LibreriaMath
+- TipoDouble
+- Caracteres
+- Cadenas
 EJERCICIOS:
 - Dado un monto, calcular cuantos billetes de 1, 5 y 10 son 
   necesarios.
