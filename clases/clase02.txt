@@ -2,12 +2,13 @@ CLASE 02: Lunes 28 de enero
 ------------------------------------------------------------------
 TEMA 1: Variables (datos, tipos de datos, variables)
 TEMA 2: Variables enteras
-TEMA 3: Variables de punto flotante
-TEMA 4: Casting de tipos
-TEMA 5: Variables de tipo doble
-TEMA 5: La librería Math. Uso de import
-TEMA 6: Variables de caracter
-TEMA 7: La clase String
+TEMA 3: Rango de las variables enteras
+TEMA 4: Variables de punto flotante
+TEMA 5: Casting de tipos
+TEMA 6: Variables de tipo doble
+TEMA 7: La librería Math. Uso de import
+TEMA 8: Variables de caracter
+TEMA 9: La clase String
 EJERCICIOS DE PRÁCTICA:
 - Variables
 - NumerosDePuntoFlotante
