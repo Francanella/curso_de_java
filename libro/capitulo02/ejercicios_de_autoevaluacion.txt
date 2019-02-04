@@ -1,0 +1,70 @@
+Ejercicios de autoevaluación - Capítulo 2
+--------------------------------------------------------------
+2.01 
+  a) { }
+  b) if
+  c) //
+  d) espacio \t \n
+  e) Palabras clave
+  f) main
+  g) System.out.println, System.out.print, System.out.printf
+2.02
+  a) falsa
+  b) verdadera
+  c) falsa
+  d) falsa
+  e) falsa
+2.03
+  a) int c, estaEsUnaVariable, q76354, numero;
+  b) System.out.print("Ingrese un entero: ");
+  c) int valor = entrada.nextInt();
+  d) System.out.println("Este es un programa en Java");
+  e) System.out.printf("%s%n%s%n", "Este es un", "programa en Java");
+  f) if(num != 7) System.out.println("La variable número no es igual a 7");
+2.04
+  a) el punto y coma luego del if
+  b) el operador >=
+2.05
+  a) /*
+        El siguiente programa calculará el
+        producto de tres números enteros
+     */
+  b) java.util.Scanner entrada = new java.util.Scanner(System.in);
+  c) int x, y, z, resultado;
+  d) System.out.print("Escriba el primer entero: ");
+  e) x = entrada.nextInt();
+  f) System.out.print("Escriba el segundo entero: ");
+  g) y = entrada.nextInt();
+  h) System.out.print("Escriba el tercer entero: ");
+  i) z = entrada.nextInt();
+  j) resultado = x * y * z;
+  k) System.out.printf("El producto es %d%n", resultado);
+2.06
+  /*
+    El siguiente programa calculará el
+    producto de tres números enteros
+  */
+  import java.util.Scanner;
+
+  public class ProductoDeTresEnteros{
+
+    public static void main(String[] args){
+      int resultado, x, y, z;
+      Scanner entrada = new Scanner(System.in);
+
+      System.out.print("Escriba el primer entero: ");
+      x = entrada.nextInt();
+
+      System.out.print("Escriba el segundo entero: ");
+      y = entrada.nextInt();
+
+      System.out.print("Escriba el tercer entero: ");
+      z = entrada.nextInt();
+
+      resultado = x * y * z;
+
+      System.out.printf("El producto es %d%n", resultado);
+
+    }
+
+  }

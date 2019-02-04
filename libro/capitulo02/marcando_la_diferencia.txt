@@ -1,0 +1,67 @@
+Marcando la diferencia - Capítulo 2
+--------------------------------------------------------------
+2.33 
+  int peso;
+  double altura;
+  double bmi;
+  Scanner sc = new Scanner(System.in);
+
+  peso = sc.nextInt();
+  altura = sc.nextDouble(); 
+  bmi = peso / (altura * altura);
+
+  System.out.printf("El índice de masa corporal es: %f%n", bmi);
+
+2.34
+  /*
+    Población mundial estimada
+  */
+  import java.util.Scanner;
+
+  public class PoblacionMundial{
+    public static void main(String[] args){
+      long poblacionActual;
+      double tasaCrecimientoAnual;
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Ingrese la población mundial actual: ");
+      poblacionActual = sc.nextLong();
+      System.out.print("Ingrese el índice de crecimiento anual actual: ");
+      tasaCrecimientoAnual = sc.nextDouble();
+
+      System.out.printf("Población estimada dentro de 1 año: %d%n", (long)( 
+        poblacionActual * ((100 + tasaCrecimientoAnual * 1) / 100)));
+      System.out.printf("Población estimada dentro de 2 años: %d%n", (long)(
+        poblacionActual * ((100 + tasaCrecimientoAnual * 2) / 100)));
+      System.out.printf("Población estimada dentro de 3 años: %d%n", (long)(
+        poblacionActual * ((100 + tasaCrecimientoAnual * 3) / 100)));
+      System.out.printf("Población estimada dentro de 4 años: %d%n", (long)(
+        poblacionActual * ((100 + tasaCrecimientoAnual * 4) / 100)));
+      System.out.printf("Población estimada dentro de 5 años: %d%n", (long)(
+        poblacionActual * ((100 + tasaCrecimientoAnual * 5) / 100)));
+    }
+  }
+2.35
+  /*
+    Costo por dia por conducir al trabajo
+  */
+  int kmPorDia;
+  double costoLitroGasolina;
+  double promedioKilometrosPorLitro;
+  int estacionamientoPorDia;
+  int peajePorDia;
+  double costoPorDia;
+
+  Scanner sc = new Scanner(System.in);
+
+  kmPorDia = sc.nextInt();
+  costoLitroGasolina = sc.nextDouble();
+  promedioKilometrosPorLitro = sc.nextDouble();
+  estacionamientoPorDia = sc.nextInt();
+  peajePorDia = sc.nextInt();
+
+  costoPorDia = kmPorDia * promedioKilometrosPorLitro * costoLitroGasolina;
+  costoPorDia = costoPorDia + estacionamientoPorDia;
+  costoPorDia = costoPorDia + peajePorDia;
+
+  System.out.printf("El costo diario actual es: %f%n", costoPorDia);

@@ -32,6 +32,15 @@ public class Variables {
         
         System.out.println("Variable entera grande: ");
         System.out.println(grande);
+        System.out.println(java.lang.Long.MAX_VALUE);
+        System.out.println(java.lang.Integer.MAX_VALUE);
+        
+        int a = 10;
+        float b = 3;
+        float resultado = a / b;
+        float c = 13;
+        System.out.println(resultado);
+        System.out.println(c);
     }
     
 }

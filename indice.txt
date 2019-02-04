@@ -39,4 +39,6 @@ Clase 02
 028 ejercicios_de_practica/Cadenas
 029 
 Clase 3
+030 ejercicios_resueltos/Ejericio05 --> Billetes
+
 

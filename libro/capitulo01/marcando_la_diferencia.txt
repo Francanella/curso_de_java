@@ -1,0 +1,21 @@
+Marcando la diferencia
+--------------------------------------------------------------
+1.09 Uso de herramientas online (web) para realizar cálculos
+     usando información proporcionada por el usuario y bases
+     de datos alojadas en servidores (por ejemplo para temas 
+     de ubicación, etc).
+1.10 Uso de una herramienta para calcular el IMC a partir de
+     información ingresada por el usuario empleando una 
+     fórmula.
+1.11 Los vehículos híbridos usan sistemas de propulsión 
+     mixta para reducir el impacto ambiental de la combus-
+     tión.
+1.12 Un algoritmo podría reemplazar palabras de acuerdo a un
+     criterio.  Para ello, primero, debería reconocer las 
+     palabras como entidades separadas y luego ver la 
+     correspondiente para reemplazo.  Existe una mayor 
+     complejidad si lo que se va a reemplazar es una 
+     expresión formada por más de una palabra.  En el ejem-
+     plo, también se profundiza, planteando la dificultad
+     extra de ver como se deberían modificar o no los 
+     artículos que refieren a la palabra.

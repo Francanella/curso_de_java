@@ -1,0 +1,415 @@
+Ejercicios resueltos - Capítulo 2
+--------------------------------------------------------------
+2.07
+  a) Comentarios
+  b) condición o expresión lógica
+  c) de asignación
+  d) / y %
+  e) interno
+  f) variable
+2.08
+  a) System.out.print("Escriba un entero: ");
+  b) a = b * c;
+  c) /* 
+        El siguiente programa va a realizar
+        un cálculo de nómina de muestra
+     */
+2.09
+  a) falso. Algunos no (por ejemplo = )
+  b) verdadero
+  c) verdadero
+  d) falso. h22 es válido
+2.10
+  a) x = 2
+  b) El valor de 2 + 2 es 4
+  c) x = 
+  d) 5 = 5
+2.11
+  a, d
+2.12
+  a, d, e
+2.13
+  a) 15
+  b) 3
+  c) 324
+2.14
+  /*
+    Ejercicio 2.14
+  */
+  public class Ejercicio2_14{
+    public static void main(String[] args){
+      System.out.println("1 2 3 4");
+    }
+  }
+
+  /*
+    Ejercicio 2.14
+  */
+  public class Ejercicio2_14{
+    public static void main(String[] args){
+      System.out.print(1 + " ");
+      System.out.print(2 + " ");
+      System.out.print(3 + " ");
+      System.out.print(4);
+    }
+  }
+
+  /*
+    Ejercicio 2.14
+  */
+  public class Ejercicio2_14{
+    public static void main(String[] args){
+      System.out.printf("%d %d %d %d", 1, 2, 3, 4);
+    }
+  }
+2.15
+  /*
+    Ejercicio 2.15
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_15{
+    public static void main(String[] args){
+      int a, b; 
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Ingrese un número: ");
+      a = sc.nextInt();
+      System.out.print("Ingrese otro número: ");
+      b = sc.nextInt();
+
+      System.out.printf("La suma de %d + %d es %d%n", 
+        a, b, (a + b));
+      System.out.printf("El producto de %d * %d es %d%n",
+        a, b, (a * b));
+      System.out.printf("La diferencia de %d - %d es %d%n",
+        a, b, (a - b));
+      System.out.printf("El cociente de %d / %d es %d%n",
+        a, b, (a / b));
+    }
+  }
+2.16
+  /*
+    Ejercicio 2.16
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_16{
+    public static void main(String[] args){
+      int a, b;
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Ingrese un entero: ");
+      a = sc.nextInt();
+      System.out.print("Ingrese otro entero: ");
+      b = sc.nextInt();
+
+      if(a > b)
+        System.out.printf("%d es mas grande", a);
+      if(b > a)
+        System.out.printf("%d es mas grande", b);
+      if(a == b)
+        System.out.printf(Estos números son iguales");
+    }
+  }
+2.17
+  /*
+    Ejercicio 2.17
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_17{
+    public static void main(String[] args){
+      int x, y, z;
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Ingrese el primer entero: ");
+      x = sc.nextInt();
+      System.out.print("Ingrese el segundo entero: ");
+      y = sc.nextInt();
+      System.out.print("Ingrese el tercer entero: ");
+      z = sc.nextInt();
+
+      System.out.printf("La suma de los tres enteros es = %d%n", (x + y + z));
+      System.out.printf("El promedio de los tres enteros es = %d%n", (x + y + z) / 3);
+      System.out.printf("El producto de los tres enteros es = %d%n", (x * y * z));
+
+      if(x < y)
+        if(x < z)
+          System.out.printf("El menor es %d%n", x);
+      if(y < x)
+        if(y < z)
+          System.out.printf("El menor es %d%n", y);
+      if(z < x)
+        if(z < y)
+          System.out.printf("El menor es %d%n", z);
+      if(x == y)
+        if(x == z)
+          System.out.printf("El menor es %d%n", x);
+
+      if(x > y)
+        if(x > z)
+          System.out.printf("El mayor es %d%n", x);
+      if(y > x)
+        if(y > z)
+          System.out.printf("El mayor es %d%n", y);
+      if(z > x)
+        if(z > y)
+          System.out.printf("El mayor es %d%n", z);
+      if(x == y)
+        if(x == z)
+          System.out.print("El mayor es %d%n", x);
+    }
+  }
+2.18
+  /*
+    Ejercicio 2.18
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_18{
+    public static void main(String[] args){
+      System.out.println();
+      System.out.println(" **********    ***      *       *    ");
+      System.out.println(" *        *  *     *   ***     * *   ");
+      System.out.println(" *        * *       * *****   *   *  ");
+      System.out.println(" *        * *       *   *    *     * ");
+      System.out.println(" *        * *       *   *   *       *");
+      System.out.println(" *        * *       *   *    *     * ");
+      System.out.println(" *        * *       *   *     *   *  ");
+      System.out.println(" *        *  *     *    *      * *   ");
+      System.out.println(" **********    ***      *       *    ");
+      System.out.println();
+    }
+  }
+2.19
+  *
+  **
+  ***
+  ****
+  *****
+2.20
+  *
+  ***
+  *****
+  ****
+  **
+2.21
+  ***************
+2.22
+  ****
+  *****
+  ******
+2.23
+  *
+  ***
+  *****
+2.24
+  /*
+    Ejercicio 2.24
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_24{
+    public static void main(String[] args){
+      int a, b, c, d, e;
+      int mayor;
+      int menor;
+
+      mayor = a;
+      menor = a;
+
+      if(b < menor) menor = b;
+      if(b > mayor) mayor = b;
+      if(c < menor) menor = c;
+      if(c > mayor) mayor = c;
+      if(d < menor) menor = d;
+      if(d > mayor) mayor = d;
+      if(e < menor) menor = e;
+      if(e > menor) mayor = e;
+
+      System.out.printf("El menor es %d%n", menor);
+      System.out.printf("El mayor es %d%n", mayor);
+    }
+  }
+2.25
+  /*
+    Ejercicio 2.25
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_25{
+    public static void main(String[] args){
+      Scanner sc = new Scanner(System.in);
+      int n;
+
+      System.out.print("Ingrese un entero: ");
+      n = sc.nextInt();
+
+      if(n % 2 == 0)
+        System.out.println("El número es par!");
+      if(n % 2 != 0)
+        System.out.println("El número es impar!");
+    }
+  }
+2.26
+  /*
+    Ejercicio 2.26
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_26{
+    public static void main(String[] args){
+      int a, b;
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Ingrese un entero: ");
+      a = sc.nextInt();
+      System.out.print("Ingrese otro entero: ");
+      b = sc.nextInt();
+
+      if(a % b == 0)
+        System.out.printf("%d es múltiplo de %d%n", a, b);
+
+      System.out.printf("%d dividido %d es igual a %d%n", a, b, (a / b));
+    }
+  }
+2.27
+  /*
+    Ejercicio 2.27
+  */
+  public class Ejercicio2_27{
+    public static void main(String[] args){
+      System.out.printf("* * * * * * * * %n * * * * * * * * %n");
+      System.out.printf("* * * * * * * * %n * * * * * * * * %n");
+      System.out.printf("* * * * * * * * %n * * * * * * * * %n");
+      System.out.printf("* * * * * * * * %n * * * * * * * * %n");      
+    }
+  }
+2.28
+  /*
+    Ejercicio 2.28
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_28{
+    public static void main(String[] args){
+      int radio;
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Ingrese el radio: ");
+      radio = sc.nextInt();
+
+      System.out.printf("El diámetro es: %f%n", radio * 2);
+      System.out.printf("La circunferencia es: %f%n", (2 * Math.PI * radio));
+      System.out.printf("El área es: %f%n", (Math.PI * radio * radio));
+    }
+  }
+2.29
+  /*
+    Ejercicio 2.29
+  */
+
+  public class Ejercicio2_29{
+    public static void main(String[] args){
+      System.out.printf("El caracter %c tiene el valor %d%n", 'A', ((int) 'A'));
+      System.out.printf("El caracter %c tiene el valor %d%n", 'B', ((int) 'B'));
+      System.out.printf("El caracter %c tiene el valor %d%n", 'C', ((int) 'C'));
+      System.out.printf("El caracter %c tiene el valor %d%n", 'a', ((int) 'a'));
+      System.out.printf("El caracter %c tiene el valor %d%n", 'b', ((int) 'b'));
+      System.out.printf("El caracter %c tiene el valor %d%n", 'c', ((int) 'c'));
+      System.out.printf("El caracter %c tiene el valor %d%n", '0', ((int) '='));
+      System.out.printf("El caracter %c tiene el valor %d%n", '1', ((int) '1'));
+      System.out.printf("El caracter %c tiene el valor %d%n", '2', ((int) '2'));
+      System.out.printf("El caracter %c tiene el valor %d%n", '$', ((int) '$'));
+      System.out.printf("El caracter %c tiene el valor %d%n", '*', ((int) '*'));
+      System.out.printf("El caracter %c tiene el valor %d%n", '+', ((int) '+'));
+      System.out.printf("El caracter %c tiene el valor %d%n", '/', ((int) '/'));
+      System.out.printf("El caracter %c tiene el valor %d%n", ' ', ((int) ' '));
+    }
+  }
+2.30
+  /*
+    Ejercicio 2.30
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_30{
+    public static void main(String[] args){
+      int num;
+      Scanner sc = new Scanner(System.in);
+
+      System.out.print("Ingrese un entero de cinco dígitos: ");
+      num = sc.nextInt();
+
+      System.out.printf("%d %d %d %d %d%n", (num / 10000), ((num / 1000) % 10), ((num / 100) % 10), ((num / 10) % 10), (num % 10)); 
+    }
+  }
+2.31
+  /*
+    Ejercicio 2.31
+  */
+
+  public class Ejercicio2_31{
+    public static void main(String[] args){
+      System.out.printf("numero\t\tcuadrado\t\tcubo%n");
+      System.out.printf("%d		%d		%d%n", 0, 0, 0);
+      System.out.printf("%d		%d		%d%n", 1, 1, 1);
+      System.out.printf("%d		%d		%d%n", 2, (2*2), (2*2*2));
+      System.out.printf("%d		%d		%d%n", 3, (3*3), (3*3*3));
+      System.out.printf("%d		%d		%d%n", 4, (4*4), (4*4*4));
+      System.out.printf("%d		%d		%d%n", 5, (5*5), (5*5*5));
+      System.out.printf("%d		%d		%d%n", 6, (6*6), (6*6*6));
+      System.out.printf("%d		%d		%d%n", 7, (7*7), (7*7*7));
+      System.out.printf("%d		%d		%d%n", 8, (8*8), (8*8*8));
+      System.out.printf("%d		%d		%d%n", 9, (9*9), (9*9*9));
+      System.out.printf("%d		%d		%d%n", 10, (10*10), (10*10*10));      
+    }
+  }
+2.32
+  /*
+    Ejercicio 2.32
+  */
+  import java.util.Scanner;
+
+  public class Ejercicio2_32{
+    public static void main(String[] args){
+      int a, b, c, d, e;
+      int pos, neg, ceros;
+      Scanner sc = new Scanner(System.in);
+
+      pos = 0;
+      neg = 0;
+      ceros = 0;
+
+      System.out.print("Ingrese 1er número entero: ");
+      a = sc.nextInt();
+      if(a < 0) neg = neg + 1;
+      if(a > 0) pos = pos + 1;
+      if(a == 0) ceros = ceros + 1;
+      System.out.print("Ingrese 2do número entero: ");
+      b = sc.nextInt();
+      if(b < 0) neg = neg + 1;
+      if(b > 0) pos = pos + 1;
+      if(b == 0) ceros = ceros + 1;
+      System.out.print("Ingrese 3er número entero: ");
+      c = sc.nextInt();
+      if(c < 0) neg = neg + 1;
+      if(c > 0) pos = pos + 1;
+      if(c == 0) ceros = ceros + 1;      
+      System.out.print("Ingrese 4to número entero: ");
+      d = sc.nextInt();
+      if(d < 0) neg = neg + 1;
+      if(d > 0) pos = pos + 1;
+      if(d == 0) ceros = ceros + 1;
+      System.out.print("Ingrese 5to número entero: ");
+      e = sc.nextInt();
+      if(e < 0) neg = neg + 1;
+      if(e > 0) pos = pos + 1;
+      if(e == 0) ceros = ceros + 1;
+
+      System.out.printf("Cantidad de negativos: %d%n", neg);
+      System.out.printf("Cantidad de positivos: %d%n", pos);
+      System.out.printf("Cantidad de ceros:     %d%n", ceros);      
+    }
+  }

@@ -1,10 +1,11 @@
 CLASE 03: Control del flujo de un programa
 ------------------------------------------------------------------
-TEMA 1: La sentencia if
-TEMA 2: Condicionales más complicados
-TEMA 3: Las sentencias switch, case y break
-TEMA 4: Los ciclos while y do ... while
-TEMA 5: El ciclo for
+TEMA 1: Entrada con java.util.Scanner
+TEMA 2: La sentencia if
+TEMA 3: Condicionales más complicados
+TEMA 4: Las sentencias switch, case y break
+TEMA 5: Los ciclos while y do ... while
+TEMA 6: El ciclo for
 EJERCICIOS DE PRACTICA:
 EJERCICIOS:
 EJERCICIOS RESUELTOS:

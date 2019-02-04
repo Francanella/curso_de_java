@@ -1,0 +1,58 @@
+Ejercicios del capítulo 1
+--------------------------------------------------------------
+1.4
+a) unidad de entrada
+b) programación
+c) ensamblador
+d) unidad de salida
+e) Unidad de memoria y Unidad de almacenamiento secundario
+f) unidad central de procesamiento
+g) unidad de aritmética y lógica
+h) de alto nivel
+i) lenguaje máquina
+j) unidad de control
+
+1.5
+a) Java
+b) C
+c) protocolo
+d) c++
+
+1.6
+a) edición, compilación, carga, verificación, ejecución
+b)
+  objeto: reloj despertador
+  atributos: 
+          hora
+          minutos
+          segundos
+  comportamientos:
+          obtener hora
+          ajustar hora
+  clase:  Reloj
+  Herencia:
+          reloj despertador es un tipo de reloj
+          que además tiene
+          - atributos:
+            alarma hora
+            alarma minutos
+          - comportamientos:
+            mostrar configuración de alarma
+            establecer configuración de alarma
+            sonar
+  Mensajes:
+          reloj.obtenerHora
+          reloj.ajustarHora(hora, minutos, segundos)
+          relojDespertador.establecerAlarma(hora, minutos, segundos)
+          relojDespertador.sonar
+  Encapsulamiento:
+  los atributos del reloj pueden ser privados y definirse como tres
+  elementos separados: hora, minuto, segundo o, por ejemplo, un solo
+  número que indique los segundos transcurridos desde la hora 0:00:00
+  asi, por ejemplo, 3725 correspondería a la hora 1:02:05 (3600 + 
+  120 + 5), de cualquiera de las dos maneras que se defina internamente, para el usuario de la clase, no es necesario saberlo,
+  con lo cual se está encapsulando la información.
+  Interfaz:
+  se obtiene la hora (reloj.obtenerHora) o se ajusta la hora (reloj.ajustarHora(h, m, s)) a través de estos métodos.
+
+
