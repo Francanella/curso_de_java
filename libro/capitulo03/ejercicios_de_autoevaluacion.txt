@@ -1,0 +1,44 @@
+Ejercicios de autoevaluación - Capítulo 3
+--------------------------------------------------------------
+3.1
+  a) public
+  b) class
+  c) new
+  d) nombre y un tipo
+  e) paquete default o, por defecto
+  f) float y double
+  g) doble precisión
+  h) nextDouble()
+  i) modificador
+  j) void
+  k) nextLine()
+  l) java.lang
+  m) import
+  n) número de punto flotante
+  o) simple precisión
+  p) %f
+  q) primitivos y referencia
+3.2
+  a) falso
+  b) verdadero
+  c) verdadero
+  d) falso
+  e) falso
+  f) verdadero
+  g) falso
+  h) verdadero
+  i) verdadero
+  j) verdadero
+  k) falso
+3.3
+  variable local pertenece y es declarada dentro de un método y existe 
+  mientras este se ejecute.
+  variable de instancia se declara dentro de la clase pero afuera de la
+  declaración de los métodos y existen antes, durante y después de la
+  ejecución de los métodos.  Existe una copia de las variables de 
+  instancia por cada objeto de la misma clase.
+3.4 
+  Un parámetro es una variable local perteneciente a un método y que se
+  emplea para recibir información al ser invocado el mismo.  En el momento
+  de la llamada al método, un valor compatible es enviado como argumento
+  al método a través de la variable-parámetro.
