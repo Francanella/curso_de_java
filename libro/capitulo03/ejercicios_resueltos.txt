@@ -1,3 +1,245 @@
 Ejercicios resueltos - Capítulo 3
 --------------------------------------------------------------
 3.5 
+  Sirve para crear un objeto a través de su constructor, 
+  reserva el espacio en memoria que tendrá el nuevo objeto y
+  , a través del constructor de la clase, permite que se 
+  inicialice el estado del objeto (variables de instancia)
+3.6
+  Cuando en una clase no se declara un constructor, Java, 
+  asigna uno predeterminado, sin parámetros.  Las variables
+  de instancia se inicializan con sus valores por defecto:
+  las numéricas en 0 (o 0.0), booleanas en false y referencias
+  en null.
+3.7
+  Una variable de instancia sirve para registrar el estado
+  de cada objeto de una clase.  Existe una copia de cada
+  variable de instanciap por cada objeto de la clase.
+3.8 
+  Porque pertenecen al paquete java.lang, el cual se importa
+  por defecto (ya que tienen funciones esenciales para Java).
+3.9
+  en vez de usar Scanner, a secas, debería emplearse: 
+  java.util.Scanner.  Por ejemplo:
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+3.10
+  se usan para "encapsular" el estado de un objeto, junto a
+  variables de instancia privadas.  Son una buena práctica de
+  ingeniería del software.  En inglés (mas común) se les llama
+  métodos get (obtener) y set (establecer). 
+3.11
+  public void retirar(double monto){
+    if(monto > this.saldo){
+      System.out.println("El monto a retirar excede el saldo de la cuenta");
+    }
+    if(monto <= this.saldo){
+      this.saldo = this.saldo - monto;
+    }
+  }
+3.12
+  public class Factura{
+    private String numeroDePieza;
+    private String descripcionDePieza;
+    private int cantidadAComprar;
+    private double precioPorArticulo;
+
+    public Factura(String numeroDePieza, String descripcionDePieza,
+      int cantidadAComprar, double precioPorArticulo){
+
+      if(cantidadAComprar < 0) cantidadAComprar = 0;
+      if(precioPorArticulo <= 0.0) precioPorArticulo = 0.0;
+
+      this.numeroDePieza = numeroDePieza;
+      this.descripcionDePieza = descripcionDePieza;
+      this.cantidadAComprar = cantidadAComprar;
+      this.precioPorArticulo = precioPorArticulo;
+    }
+
+    public String getNumeroDePieza(){
+      return this.numeroDePieza;
+    }
+
+    public void setNumeroDePieza(String numeroDePieza){
+      this.numeroDePieza = numeroDePieza;
+    }
+
+    public String getDescripcionDePieza(){
+      return this.descripcionDePieza;
+    }
+
+    public void setDescripcionDePieza(String descripcionDePieza){
+      this.descripcionDePieza = descripcionDePieza;
+    }
+
+    public int getCantidadAComprar(){
+      return this.cantidadAComprar;
+    }
+
+    public void setCantidadAComprar(int cantidadAComprar){
+      if(cantidadAComprar < 0) cantidadAComprar = 0;
+      this.cantidadAComprar = cantidadAComprar;
+    }
+
+    public double getPrecioPorArticulo(){
+      return this.precioPorArticulo;
+    }
+
+    public void setPrecioPorArticulo(double precioPorArticulo){
+      if(precioPorArticulo <= 0.0) precioPorArticulo = 0.0;
+      this.precioPorArticulo = precioPorArticulo;
+    }
+
+    public double getMontoFactura(){
+      return this.cantidadAComprar * this.precioPorArticulo;
+    }
+  }
+3.13
+  public class Empleado{
+    private String primerNombre;
+    private String apellidoPaterno;
+    private double salarioMensual;
+
+    public Empleado(String primerNombre, String apellidoPaterno, 
+      double salarioMensual){
+
+      this.primerNombre = primerNombre;
+      this.apellidoPaterno = apellidoPaterno;
+      if(salarioMensual > 0.0)
+        this.salarioMensual = salarioMensual;
+    }
+
+    public String getPrimerNombre(){
+      return this.primerNombre;
+    }
+
+    public void setPrimerNombre(String primerNombre){
+      this.primerNombre = primerNombre;
+    }
+
+    public String getApellidoPaterno(){
+      return this.apellidoPaterno;
+    }
+
+    public void setApellidoPaterno(String apellidoPaterno){
+      this.apellidoPaterno = apellidoPaterno;
+    }
+
+    public double getSalarioMensual(){
+      return this.salarioMensual;
+    }
+
+    public void setSalarioMensual(double salarioMensual){
+      this.salarioMensual = salarioMensual;
+    }
+  }
+
+  public class PruebaEmpleado{
+    public static void main(String[] args){
+      Empleado emp1 = new Empleado("Pepe", "Sánchez", 2500);
+      Empleado emp2 = new Empleado("Coca", "Cola", 2700);
+
+      System.out.printf("El empleado %s %s, percibe un salario anual de %f pesos%n", emp1.getPrimerNombre(), emp1.getApellidoPaterno(), (12 * emp1.getSalarioMensual()));
+
+      System.out.printf("El empleado %s %s, percibe un salario anual de %f pesos%n", emp2.getPrimerNombre(), emp2.getApellidoPaterno(), (12 * emp2.getSalarioMensual()));
+
+      emp1.setSalarioMensual(emp1.getSalarioMensual() * 1.1);
+      emp2.setSalarioMensual(emp2.getSalarioMensual() * 1.1);
+
+      System.out.printf("El empleado %s %s, percibe un salario anual de %f pesos%n", emp1.getPrimerNombre(), emp1.getApellidoPaterno(), (12 * emp1.getSalarioMensual()));
+
+      System.out.printf("El empleado %s %s, percibe un salario anual de %f pesos%n", emp2.getPrimerNombre(), emp2.getApellidoPaterno(), (12 * emp2.getSalarioMensual()));
+    }
+  }
+3.14
+  public class Fecha{
+    private int dia;
+    private int mes;
+    private int anio;
+
+    public Fecha(int dia, int mes, int anio){
+      if(anio < 1) anio = 1;
+      this.anio = anio;
+      if(mes < 1) mes = 1;
+      if(mes > 12) mes = 12;
+      this.mes = mes;
+      if(dia < 1) dia = 1;
+      if(mes == 1 && dia > 31) dia = 31;
+      if(mes == 2 && dia > 28) dia = 28; // se puede mejorar
+      if(mes == 3 && dia > 31) dia = 31;
+      if(mes == 4 && dia > 30) dia = 30;
+      if(mes == 5 && dia > 31) dia = 31;
+      if(mes == 6 && dia > 30) dia = 30;
+      if(mes == 7 && dia > 31) dia = 31;
+      if(mes == 8 && dia > 31) dia = 31;
+      if(mes == 9 && dia > 30) dia = 30;
+      if(mes == 10 && dia > 31) dia = 31;
+      if(mes == 11 && dia > 30) dia = 30;
+      if(mes == 12 && dia > 31) dia = 31;
+      this.dia = dia;
+    }
+
+    public void getDia(){
+      return this.dia;
+    }
+
+    public int setDia(int dia){
+      if(dia < 1) dia = 1;
+      if(mes == 1 && dia > 31) dia = 31;
+      if(mes == 2 && dia > 28) dia = 28; // se puede mejorar
+      if(mes == 3 && dia > 31) dia = 31;
+      if(mes == 4 && dia > 30) dia = 30;
+      if(mes == 5 && dia > 31) dia = 31;
+      if(mes == 6 && dia > 30) dia = 30;
+      if(mes == 7 && dia > 31) dia = 31;
+      if(mes == 8 && dia > 31) dia = 31;
+      if(mes == 9 && dia > 30) dia = 30;
+      if(mes == 10 && dia > 31) dia = 31;
+      if(mes == 11 && dia > 30) dia = 30;
+      if(mes == 12 && dia > 31) dia = 31;
+      this.dia = dia;
+    }
+
+    public int getMes(){
+      return this.mes;
+    }
+
+    public void setMes(int mes){
+      if(mes < 1) mes = 1;
+      if(mes > 12) mes = 12;
+      this.mes = mes;
+    } 
+
+    public int getAnio(){
+      return this.anio;
+    }
+
+    public void setAnio(int anio){
+      if(anio < 1) anio = 1;
+      this.anio = anio;
+    }
+
+    public void mostrarFecha(){
+      System.out.printf("%d/%d/%d", this.anio, this.mes, this.dia);
+    }
+  }
+
+  public class PruebaFecha{
+    public static void main(String[] args){
+      Fecha f = new Fecha(15, 5, 1966);
+
+      System.out.printf("Día: %d%n", f.getDia());
+      System.out.printf("Mes: %d%n", f.getMes());
+      System.out.printf("Año: %d%n", f.getAnio());
+
+      System.out.println();
+
+      f.setAnio(f.getAnio() + 1);
+      System.out.println("Un año después:");
+      f.mostrarFecha();
+
+    }
+  }
+3.15
+  public static void mostrarCuenta(Cuenta cuentaAMostrar){
+    System.out.printf("Cliente: %s - Saldo: %.2f", cuentaAMostrar.getNombre(), cuentaAMostrar.getSaldo());
+  }

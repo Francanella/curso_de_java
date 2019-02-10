@@ -40,7 +40,9 @@ public class Ejercicio05 {
         
         double dNumero = 10.5f;
         // float fNumero = 10.5;
-        System.out.println(Math.pow(2, 10));
+        
+        double potencia = Math.pow(2, 10);
+        System.out.println(potencia);
         
     }
     
